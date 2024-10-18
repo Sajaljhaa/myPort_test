@@ -1,0 +1,12 @@
+.customCursor {
+    position: fixed;
+    pointer-events: none;  // Prevent interaction
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 9999; 
+  }
+  
+  .no-cursor-effect {
+    pointer-events: auto;  // Allow normal interaction
+  }
+  
